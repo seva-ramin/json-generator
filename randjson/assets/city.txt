@@ -1,0 +1,100 @@
+Airport Drive,Missouri,64870
+Hanley Hills,Missouri,63114
+Pinesdale,Montana,59841
+Wisdom,Montana,59761
+Rogers,Louisiana,71342
+Emmons,Minnesota,56029
+Enchanted Oaks,Texas,75156
+Roosevelt,Utah,84066
+Weinert,Texas,76388
+Mesa Verde,California,92225
+Scottsbluff,Nebraska,69361
+Custer,Michigan,49405
+Waynetown,Indiana,47990
+Glen Raven,North Carolina,27217
+Guayabal,Puerto Rico,795
+Ennis,Montana,59729
+Chaska,Minnesota,55318
+Ipswich,Massachusetts,1938
+Gapland,Maryland,21779
+Zahl,North Dakota,58856
+Vallecito,California,95251
+Giltner,Nebraska,68841
+Diamond Lake,Illinois,60060
+McCormick,Illinois,62987
+Saltese,Montana,59867
+Friars Point,Mississippi,38631
+Privateer,South Carolina,29154
+Valley,Washington,99181
+Gerber,California,96035
+Portsmouth,New Hampshire,03801
+Abram,Texas,78572
+Hamilton Square,New Jersey,08690
+Meyersdale,Pennsylvania,15552
+Stacy,Minnesota,55092
+Londonderry,New Hampshire,3053
+Perth,North Dakota,58363
+Sheridan,Colorado,80110
+Blanchester,Ohio,45107
+Schaghticoke,New York,12154
+Prairie Grove,Illinois,60014
+Patricia,Texas,79331
+Pleasant Plain,Ohio,45162
+Kamiah,Idaho,83536
+Willow Springs,Illinois,60480
+Greenough,Montana,59823
+Round Oak,Georgia,31038
+Carroll,Ohio,43112
+Smithers,West Virginia,25186
+Woodruff,South Carolina,29388
+Four Corners,Texas,77498
+Cushman,Arkansas,72501
+East Millstone,New Jersey,8873
+Baytown,Texas,77520
+Labadieville,Louisiana,70301
+Wilmot,Ohio,44689
+Clarcona,Florida,32703
+Palmer,Tennessee,37365
+La Villita,New Mexico,87511
+Ivanhoe North,Texas,75979
+Moccasin,Montana,59462
+Lexington,Illinois,61753
+Edison,Nebraska,68936
+Adell,Wisconsin,53001
+Fishersville,Virginia,22980
+Pocasset,Oklahoma,73004
+Onancock,Virginia,23417
+Olympian Village,Missouri,63020
+Hamer,Idaho,83425
+York Haven,Pennsylvania,17370
+Nanticoke,Maryland,21840
+Pine Valley,California,91962
+Lattingtown,New York,11560
+Fairview,Ohio,43773
+Woodbury,Pennsylvania,16695
+Scarborough,New York,10510
+Pauline,Kansas,66609
+Morse Junction,Texas,79062
+Hillsboro,North Dakota,58045
+Brasfield,Arkansas,72017
+El Cajon,California,92020
+Foley,Missouri,63347
+Newsome,Texas,75451
+Newmarket,New Hampshire,3857
+Wasco,California,93280
+Cedar Mills,Minnesota,55350
+Dickworsham,Texas,76365
+Blue Grass,Iowa,52726
+Harrison,New Jersey,7029
+Sidnaw,Michigan,49961
+Sodaville,Oregon,97355
+Peoria,Oklahoma,74363
+Worley,Idaho,83876
+Wimer,Oregon,97537
+Saint Regis,Montana,59866
+Bucktail,Nebraska,69121
+Riverside,Arkansas,72101
+Butte Meadows,California,95942
+Hillsboro,Tennessee,37342
+Homewood,South Carolina,29526
+Chatawa,Mississippi,39652

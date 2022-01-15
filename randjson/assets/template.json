@@ -1,0 +1,27 @@
+[
+{
+  "id": "__RANDOM__number__5000__7000",
+  "state": ["__RANDOM__state__1", "__RANDOM__state__2"]
+},
+{ "id": "__RANDOM__number__9000__10000",
+  "dob": "__RANDOM__date__12/01/1999__01/01/2000",
+  "phone": "__RANDOM__phone",
+  "addresses": [
+    {
+      "street": "__RANDOM__street",
+      "city": "__RANDOM__city__1",
+      "state": "__RANDOM__state__1"
+    },
+    {
+      "street": "__RANDOM__street",
+      "city": "__RANDOM__city__2",
+      "state": "__RANDOM__state__2"
+    }
+  ],
+  "status": "__RANDOM__choice__Good__Bad__OK__UNKNOWN FACT",
+  "zip": ["__RANDOM__zip__1","__RANDOM__zip__2"],
+  "name": {"firstname": "__RANDOM__firstname", "lastname": "__RANDOM__lastname"},
+  "amount": "__RANDOM__money__-500__500",
+  "description": "__RANDOM__phrase"
+}
+]
