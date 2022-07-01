@@ -3,6 +3,10 @@ from waitress import serve
 from randjson import Driver
 import random, json
 
+import logging
+
+logger = logging.getLogger('waitress')
+logger.setLevel(logging.INFO)
 
 app = Flask(__name__)
 templates = {}

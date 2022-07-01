@@ -127,13 +127,13 @@ class Driver:
         self.template = template
 
     # TODO - broken
-    def _replace(self, value):
+    def replace(self, value):
         new_value = []
-        for word in re.findall(r'\w+|\W+', value):
+        for word in re.findall(r'\S+', value):
             new_value.append(self._replace(word))
-        return ''.join(map(str, new_value))
+        return ' '.join(map(str, new_value))
 
-    def replace(self, random_type):
+    def _replace(self, random_type):
         """ assumes term begins with __RANDOM__ """
         if not random_type.startswith("__RANDOM__"):
             return random_type
