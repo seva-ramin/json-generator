@@ -1,4 +1,5 @@
 import random, time, json, re, os, sys
+from sentence import Sentence
 
 dir_name = os.path.dirname(os.path.abspath(__file__))
 
@@ -78,6 +79,14 @@ class RandomAdjective:
     def generate():
         return RandomAdjective.adjectives[random.randrange(0, len(RandomAdjective.adjectives))].title()
 
+class RandomColor:
+    filename = '{}/assets/colors.txt'.format(dir_name)
+    colors = load_file(filename)
+
+    @staticmethod
+    def generate():
+        return RandomColor.colors[random.randrange(0, len(RandomColor.colors))].title()
+
 
 class RandomPhrases:
     filename = '{}/assets/phrase.txt'.format(dir_name)
@@ -86,6 +95,14 @@ class RandomPhrases:
     @staticmethod
     def generate():
         return RandomPhrases.phrases[random.randrange(0, len(RandomPhrases.phrases))].title()
+
+class RandomSentence:
+    sentence = Sentence()
+
+    @staticmethod
+    def generate():
+        """ Returns a random sentence. """
+        return RandomSentence.sentence.random_sentence()
 
 
 class RandomStreet:
@@ -196,10 +213,14 @@ class Driver:
                 return RandomDate.generate()
             elif type.lower() == 'phrase':
                 return RandomPhrases.generate()
+            elif type.lower() == 'sentence':
+                return RandomSentence.generate()
             elif type.lower() == 'noun':
                 return RandomNoun.generate()
             elif type.lower() == 'adjective':
                 return RandomAdjective.generate()
+            elif type.lower() == 'color':
+                return RandomColor.generate()
             elif type.lower() == 'choice':
                 return random.choice(terms[3:])
         except Exception as e:

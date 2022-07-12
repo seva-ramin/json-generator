@@ -1,0 +1,12 @@
+blue
+red
+black
+white
+yellow
+green
+magenta
+pink
+silver
+purple
+olive
+brown

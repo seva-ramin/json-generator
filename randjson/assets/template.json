@@ -22,6 +22,8 @@
   "zip": ["__RANDOM__zip__1","__RANDOM__zip__2"],
   "name": {"firstname": "__RANDOM__firstname", "lastname": "__RANDOM__lastname"},
   "amount": "__RANDOM__money__-500__500",
-  "description": "__RANDOM__phrase"
+  "short_description": "__RANDOM__phrase",
+  "long_description": "__RANDOM__sentence",
+  "color": "__RANDOM__color"
 }
 ]
