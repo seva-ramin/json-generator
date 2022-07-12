@@ -1,5 +1,5 @@
 import random, time, json, re, os, sys
-from sentence import Sentence
+import sentence
 
 dir_name = os.path.dirname(os.path.abspath(__file__))
 
@@ -97,7 +97,7 @@ class RandomPhrases:
         return RandomPhrases.phrases[random.randrange(0, len(RandomPhrases.phrases))].title()
 
 class RandomSentence:
-    sentence = Sentence()
+    sentence = sentence.Sentence()
 
     @staticmethod
     def generate():
@@ -144,13 +144,13 @@ class Driver:
         self.template = template
 
     # TODO - broken
-    def replace(self, value):
+    def _replace(self, value):
         new_value = []
         for word in re.findall(r'\S+', value):
-            new_value.append(self._replace(word))
+            new_value.append(self.replace(word))
         return ' '.join(map(str, new_value))
 
-    def _replace(self, random_type):
+    def replace(self, random_type):
         """ assumes term begins with __RANDOM__ """
         if not random_type.startswith("__RANDOM__"):
             return random_type
@@ -205,8 +205,8 @@ class Driver:
                 return random.randint(0,5000)
             elif type.lower() == 'money':
                 if len(terms) > 3:
-                    return random.uniform(int(terms[3]), int(terms[4]))
-                return random.uniform(0,10000000)
+                    return '%.2f' % random.uniform(int(terms[3]), int(terms[4]))
+                return '%.2f' % random.uniform(0,10000000)
             elif type.lower() == 'date':
                 if len(terms) > 3:
                     return RandomDate.generate_between(terms[3], terms[4])

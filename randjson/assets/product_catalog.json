@@ -1,0 +1,24 @@
+{
+  "id": "__RANDOM__number__1000000__9999999",
+  "phone": "__RANDOM__phone",
+  "addresses": [
+    {
+      "street": "__RANDOM__street",
+      "city": "__RANDOM__city__1",
+      "state": "__RANDOM__state__1"
+    },
+    {
+      "street": "__RANDOM__street",
+      "city": "__RANDOM__city__2",
+      "state": "__RANDOM__state__2"
+    }
+  ],
+  "status": "__RANDOM__choice__Shipping__On Sale__Not Available__Coming Soon",
+  "zip": ["__RANDOM__zip__1","__RANDOM__zip__2"],
+  "contact": {"firstname": "__RANDOM__firstname", "lastname": "__RANDOM__lastname"},
+  "price": "__RANDOM__money__5__50000",
+  "short_description": "__RANDOM__phrase",
+  "long_description": "__RANDOM__sentence",
+  "color": "__RANDOM__color"
+}
+
